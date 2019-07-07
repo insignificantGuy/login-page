@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family:sans-serif;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,120,121,1) 0%, rgba(255,123,0,1) 100%);
+}
+
+.sign_in{
+	text-align: center;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 20px;
+	border: 2px solid black;
+	height: 50vh;
+	margin-left: 200px;
+	margin-bottom: 100px;
+}
+
+.sign_in input{
+	padding: 0 20px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 40px;
+	width: 100%;
+	text-transform: uppercase;
+	background: #fff;
+}
+
+span{
+	text-transform: uppercase;
+
+}
+
+.sign_up{
+	text-align: center;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 20px;
+	border: 2px solid black;
+	height: 60vh;
+	margin-left: 200px;
+
+
+}
+
+.sign_up input{
+	padding: 0 20px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 40px;
+	width: 100%;
+	text-transform: uppercase;
+	background: #fff;
+}
+
+
+
+.sign_in input[type="button"]{
+	width: 30%;
+}
+
+.sign_in input[value="RESET"]{
+	background: #ed3306;
+}
+
+.sign_in input[value="LOGIN"],
+.sign_up input[value="REGISTER"]{
+	background: #10e110;
+}
+
